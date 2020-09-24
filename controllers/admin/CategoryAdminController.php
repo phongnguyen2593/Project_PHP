@@ -5,6 +5,7 @@ class CategoryAdminController extends AdminController {
 	protected $model;
 	public function __construct(){
 		$this->model = new Category();
+		parent::__construct();
 	}
 
      	//hiển thị toàn bộ danh mục

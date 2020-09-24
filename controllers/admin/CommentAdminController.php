@@ -17,6 +17,7 @@ class CommentAdminController extends AdminController
 	{
 		$this->comment_obj = new Comment();
 		$this->post_obj = new Post();
+		parent::__construct();
 	}
 
 	//hiển thị danh sách comment chưa phê duyệt 

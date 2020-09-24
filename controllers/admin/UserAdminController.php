@@ -7,6 +7,7 @@ class UserAdminController extends AdminController {
 
 	public function __construct(){
 		$this->model = new User();
+		parent::__construct();
 		// $this->category_obj = new Category();
 		
 	}
